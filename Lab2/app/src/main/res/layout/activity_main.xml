@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="One, One" />
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="One, Two" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CellStyle"
+                android:layout_weight="1"
+                android:text="One, Three" />
+
+            <TextView
+                style="@style/CellStyle"
+                android:layout_weight="1"
+                android:text="One, Four" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="Two, One" />
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="Two, Two" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CellStyle"
+                android:layout_weight="1"
+                android:text="Two, Three" />
+
+            <TextView
+                style="@style/CellStyle"
+                android:layout_weight="1"
+                android:text="Two, Four" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="Three, One" />
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="Three, Two" />
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="Three, Three" />
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="Three, Four" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="Four, One" />
+
+        <TextView
+            style="@style/CellStyle"
+            android:layout_weight="1"
+            android:text="Four, Two" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CellStyle"
+                android:layout_weight="1"
+                android:text="Four, Three" />
+
+            <TextView
+                style="@style/CellStyle"
+                android:layout_weight="1"
+                android:text="Four, Four" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
