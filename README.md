@@ -7,3 +7,5 @@
 ## 里面较为完整的项目列表
 
  - https://github.com/Akiyama-sama/Calculator-Kotlin
+
+- https://github.com/Akiyama-sama/Kt-Notepad（期中实验）
